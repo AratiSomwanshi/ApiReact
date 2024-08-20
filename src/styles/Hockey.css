@@ -1,0 +1,226 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.navbar nav {
+    display: flex;
+    flex: 1;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.navbar nav ul li {
+    margin: 0 0.75rem;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #0056b3;
+    color: #e0e0e0;
+}
+
+/* Navigation Links - Rightmost corner */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-right a:hover {
+    background-color: #0056b3;
+    color: #e0e0e0;
+}
+
+/* Badminton Header Section */
+.badminton-header {
+    padding: 2rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.badminton-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.badminton-header p {
+    font-size: 1.2rem;
+}
+
+/* Carousel Section */
+.carousel-section {
+    margin: 2rem auto;
+    max-width: 80%;
+}
+
+.carousel .slide img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Search and Sort */
+.search-sort {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.search-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.sort-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Product List */
+.badminton-products {
+    padding: 2rem;
+}
+
+.badminton-products h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.product-image {
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.product-name {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.product-price {
+    font-size: 1rem;
+    color: #007bff;
+    margin: 0.5rem 0;
+}
+
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.quantity-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 0.25rem;
+}
+
+.quantity-value {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+.product-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #0056b3;
+}
+
+.product-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Footer */
+.footer {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,87 @@
+.footer {
+  background-color: #003366; /* Match the navbar color */
+  padding: 20px 0; /* Reduced padding */
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer__brand {
+  margin-bottom: 15px; /* Reduced margin */
+}
+
+.footer__brand-name {
+  font-size: 24px; /* Slightly smaller font size */
+  font-weight: 700;
+  color: #f9d342;
+}
+
+.footer__brand-tagline {
+  font-size: 14px; /* Slightly smaller font size */
+  margin: 5px 0; /* Reduced margin */
+  color: #f9d342;
+}
+
+.footer__brand-description {
+  font-size: 12px; /* Slightly smaller font size */
+  color: #e0e0e0; /* Lighten the text color */
+  line-height: 1.4; /* Slightly reduced line height */
+}
+
+.footer__link-title {
+  font-size: 16px; /* Slightly smaller font size */
+  font-weight: 600;
+  margin-bottom: 10px; /* Reduced margin */
+  color: #f9d342;
+}
+
+.footer__links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer__list li {
+  margin-bottom: 8px; /* Reduced margin */
+}
+
+.footer__list li a {
+  color: #ffffff; /* Match the text color to ensure visibility */
+  font-size: 14px; /* Slightly smaller font size */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer__list li a:hover {
+  color: #f9d342;
+}
+
+.footer__contact p {
+  margin-bottom: 8px; /* Reduced margin */
+  font-size: 12px; /* Slightly smaller font size */
+  color: #e0e0e0;
+}
+
+.footer__contact i {
+  margin-right: 8px; /* Reduced margin */
+  color: #f9d342;
+}
+
+.footer__social {
+  margin-top: 15px; /* Reduced margin */
+}
+
+.footer__social a {
+  color: #ffffff; /* Match text color */
+  margin-right: 12px; /* Reduced margin */
+  font-size: 18px; /* Slightly smaller font size */
+  transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+  color: #f9d342;
+}
+
+.copyright {
+  margin-top: 15px; /* Reduced margin */
+  font-size: 12px; /* Slightly smaller font size */
+  color: #e0e0e0;
+}
